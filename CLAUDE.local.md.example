@@ -1,0 +1,20 @@
+# Machine-specific notes (copy to CLAUDE.local.md — that copy is gitignored)
+
+Record here whatever is true of THIS machine only. Keep identifiers (paths with usernames,
+MACs, qube names) in this file or config.local.json, never in committed files.
+
+## This machine
+
+- OS / environment (e.g. "Qubes OS app qube `mesh`, Fedora template", "WSL2 Ubuntu"):
+- Does it have Bluetooth? If not: never attempt BLE from here.
+- Project folder path:
+- Venv and Python version:
+
+## Bluetooth / radio access (if applicable)
+
+- How the BT adapter is provided (built-in / qvm-usb attach command / etc.):
+- Pairing state (Linux needs a one-time `bluetoothctl` pair, PIN 123456):
+
+## Quirks
+
+- Interpreter oddities, share/filesystem issues, anything a future session must know:

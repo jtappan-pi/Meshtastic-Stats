@@ -1,0 +1,12 @@
+{
+  "ble_device": "AA:BB:CC:DD:EE:FF",
+  "db_path": "mesh_stats.db",
+  "layout_path": "card_layout.json",
+  "log_path": "mesh_dashboard.log",
+  "server_host": "127.0.0.1",
+  "server_port": 5000,
+  "poll_timeout": 30,
+  "ble_scan_seconds": 25,
+  "ble_max_attempts": 6,
+  "ble_gatt_fail_cooldown": 75
+}

@@ -1,0 +1,6 @@
+# Pinned: server.py monkeypatches this version's BLE scan internals (see CLAUDE.md)
+meshtastic==2.7.11
+flask>=3.0.0
+pyserial>=3.5
+bleak>=0.21.0
+pypubsub>=4.0.3

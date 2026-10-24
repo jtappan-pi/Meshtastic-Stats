@@ -1,0 +1,36 @@
+# Virtual environments (Linux side and Windows side share this folder)
+.venv/
+.venv-win/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local config: holds the radio's MAC. Never committed.
+config.local.json
+
+# Per-machine notes for Claude (paths, usernames, quirks)
+CLAUDE.local.md
+
+# Runtime output of server.py
+mesh_dashboard.log
+card_layout.json
+
+# Live telemetry history: real data, never committed
+mesh_stats.db
+
+# Real captures: contain node IDs/names/public key, local only
+tests/fixtures/*
+!tests/fixtures/README.md
+
+# Pre-scrub git history, kept locally until deleted
+.git-old/
+
+# Editors
+.idea/
+.vscode/
+
+# Claude Code local config (per-machine)
+.claude/
