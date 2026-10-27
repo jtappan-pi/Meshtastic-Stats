@@ -25,9 +25,6 @@ mesh_stats.db
 tests/fixtures/*
 !tests/fixtures/README.md
 
-# Pre-scrub git history, kept locally until deleted
-.git-old/
-
 # Editors
 .idea/
 .vscode/
